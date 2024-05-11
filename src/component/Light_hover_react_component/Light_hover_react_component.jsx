@@ -48,6 +48,7 @@ function Card({ children, bgColor }) {
 		bronze: 'rgb(205 127 50 / 0.3)',
 		white: 'rgb(255 255 255 / 0.4)',
 		black: 'rgb(0 0 0 / 0.6)',
+		default: 'rgb(128 128 128 / 0.2)',
 	};
 
 	if (bgColor in colorMap) {

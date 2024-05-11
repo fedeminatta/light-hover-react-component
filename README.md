@@ -25,10 +25,10 @@ A continuación, se muestra cómo puedes utilizar el componente `Light_hover_rea
     }}
   />
 </LightHoverReactComponent>
-<LightHoverReactComponent bgColor={'black'}>
 
-  <h2>Black</h2>
-  <p>Párrafo sobre algo random </p>
+<LightHoverReactComponent bgColor={'rgb(118, 10, 231 , 0.6)'}>
+  <h2>Custom</h2>
+  <p>rgb(118, 10, 231 , 0.6)</p>
   <img
     src='https://medibangpaint.com/wp-content/uploads/2020/09/1.jpg'
     alt='paisaje'
@@ -38,8 +38,8 @@ A continuación, se muestra cómo puedes utilizar el componente `Light_hover_rea
     }}
   />
 </LightHoverReactComponent>
-<LightHoverReactComponent bgColor={'green'}>
 
+<LightHoverReactComponent bgColor={'green'}>
   <h2>Green</h2>
   <p>Párrafo sobre algo random </p>
   <img

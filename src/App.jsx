@@ -46,6 +46,18 @@ function App() {
 						}}
 					/>
 				</Light_hover_react_component>
+				<Light_hover_react_component bgColor={'rgb(118, 10, 231 , 0.6)'}>
+					<h2>Custom</h2>
+					<p>rgb(118, 10, 231 , 0.6)</p>
+					<img
+						src='https://medibangpaint.com/wp-content/uploads/2020/09/1.jpg'
+						alt='paisaje'
+						style={{
+							width: 300,
+							borderRadius: 5,
+						}}
+					/>
+				</Light_hover_react_component>
 
 				{Object.keys(colorMap).map((color, index) => (
 					<Light_hover_react_component key={index} bgColor={color}>
