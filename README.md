@@ -12,7 +12,7 @@ Importa el componente `Light_hover_react_component` en tu archivo JavaScript o T
 
 A continuación, se muestra cómo puedes utilizar el componente `Light_hover_react_component`:
 
-```
+```javascript
 <LightHoverReactComponent>
   <h2>Default</h2>
   <p>Párrafo sobre algo random </p>
